@@ -1,0 +1,16 @@
+<%- include("./partials/header") %>
+<h1 align="center" class="color"> Sign UP! </h1>
+<form action="/register" method="POST">
+	<table align="center">
+	<tr>
+		<td><input  class="margin" type="text" name="username" placeholder="username"></td>
+	</tr>
+	<tr>
+		<td><input class="margin" type="password" name="password" placeholder="password"></td>
+	</tr>
+	<tr>
+		<td><input class="btn btn-primary margin" type="submit" value="Submit"></td>
+	</tr>
+	</table>
+</form>
+<%- include("./partials/footer") %>
